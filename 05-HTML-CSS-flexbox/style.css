@@ -1,0 +1,148 @@
+
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #f8f8f8;
+      border-bottom: 1px solid #ddd;
+    }
+    .topbar {
+      background: #e91e63;
+      color: #fff;
+      padding: 8px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .topbar a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background: #fff;
+    }
+    nav img {
+      height: 45px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    /* Banner */
+    .banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+      background: #fdf2f8;
+    }
+    .banner-text {
+      flex: 1;
+      padding: 20px;
+    }
+    .banner-text h1 {
+      font-size: 2.2rem;
+      color: #111;
+    }
+    .banner-text h1 span {
+      color: #e91e63;
+    }
+    .banner-text p {
+      margin: 15px 0;
+      color: #555;
+    }
+    .banner-text a {
+      display: inline-block;
+      background: #e91e63;
+      color: #fff;
+      padding: 10px 20px;
+      margin-right: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .banner-img {
+      flex: 1;
+      text-align: center;
+    }
+    .banner-img img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    /* Courses Section */
+    .courses {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .courses h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #111;
+    }
+    .course-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .course-card {
+      flex: 1 1 200px;
+      max-width: 220px;
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .course-card:hover {
+      transform: scale(1.05);
+      border-color: #e91e63;
+    }
+    .course-card img {
+      max-width: 70px;
+      margin-bottom: 10px;
+    }
+    .course-card h3 {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav .nav-links {
+        display: none;
+      }
+      .banner {
+        flex-direction: column;
+      }
+      .banner-text h1 {
+        font-size: 1.6rem;
+      }
+    }
+ 

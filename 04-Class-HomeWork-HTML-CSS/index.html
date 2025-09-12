@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Piku LMS - Assignment</title>
+ 
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <span class="nav-brand">PikuLMS</span>
+    <nav class="nav-links">
+      <a href="#">Dashboard</a>
+      <a href="#">Courses</a>
+      <a href="#">Resources</a>
+      <a href="#">Profile</a>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Welcome to PikuLMS</h1>
+    <p>Learn new skills with short courses — practice, watch lessons, and track progress.</p>
+    <div class="search" role="search">
+      <input type="text" placeholder="Search courses, e.g., JavaScript, Design" />
+      <button type="button">Search</button>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="container">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="left-col" aria-label="Course categories">
+      <div class="categories">
+        <h3>Categories</h3>
+        <ul>
+          <li>Web Development</li>
+          <li>Data Science</li>
+          <li>Mobile App</li>
+          <li>UI / UX Design</li>
+          <li>Business</li>
+        </ul>
+      </div>
+
+      <div style="height:12px;"></div>
+
+      <div class="my-courses">
+        <h3>My Courses</h3>
+        <ul>
+          <li>Intro to HTML</li>
+          <li>JavaScript Basics</li>
+          <li>Database Fundamentals</li>
+        </ul>
+      </div>
+
+      <div style="height:12px;"></div>
+
+      <div class="upcoming">
+        <h3>Upcoming</h3>
+        <ul>
+          <li>Live Q/A - Sep 20</li>
+          <li>Project review - Sep 27</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- RIGHT CONTENT -->
+    <main class="right-col">
+
+      <!-- COURSES -->
+      <section class="courses">
+        <div class="courses-header">
+          <h2 style="margin:0; color:#0d3b66;">Popular Courses</h2>
+          <p style="margin:6px 0 12px 0; color:#547683;">Choose a course to start learning. Click <em>Start</em> to begin lessons.</p>
+        </div>
+
+        <div class="course-grid">
+          <!-- Course 1 -->
+          <article class="course-card">
+            <div class="course-thumb">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgZ-XNf77w59wHsEbbc-xFCukxy2uoeWJbJg&s" alt="HTML & CSS course" />
+            </div>
+            <div class="course-body">
+              <h4>HTML & CSS Fundamentals</h4>
+              <p>Build static web pages and style them using CSS. Perfect for beginners.</p>
+              <div class="course-meta">Duration: 6 lessons • Level: Beginner</div>
+              <div class="progress"><span class="fill" style="width:45%;"></span></div>
+              <div style="margin-top:8px;"><span style="font-size:13px; color:#3b6b8a;">Progress: 45%</span></div>
+            </div>
+            <div class="course-actions">
+              <a class="btn" href="#">Continue</a>
+              <a class="btn secondary" href="#">Details</a>
+            </div>
+          </article>
+
+          <!-- Course 2 -->
+          <article class="course-card">
+            <div class="course-thumb">
+              <img src="https://miro.medium.com/v2/resize:fit:1400/1*N3XI10lVYkUSvA3CXTnOkg.png" alt="JavaScript course" />
+            </div>
+            <div class="course-body">
+              <h4>JavaScript Basics</h4>
+              <p>Learn variables, functions, DOM basics, and simple interactivity.</p>
+              <div class="course-meta">Duration: 8 lessons • Level: Beginner</div>
+              <div class="progress"><span class="fill" style="width:20%;"></span></div>
+              <div style="margin-top:8px;"><span style="font-size:13px; color:#3b6b8a;">Progress: 20%</span></div>
+            </div>
+            <div class="course-actions">
+              <a class="btn" href="#">Start</a>
+              <a class="btn secondary" href="#">Details</a>
+            </div>
+          </article>
+
+          <!-- Course 3 -->
+          <article class="course-card">
+            <div class="course-thumb">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnOZC51n1fUCfoX0v4QZERP4PrCvFUsoS_yg&s" alt="Database course" />
+            </div>
+            <div class="course-body">
+              <h4>Database Fundamentals</h4>
+              <p>SQL basics, design, and queries for CRUD operations.</p>
+              <div class="course-meta">Duration: 5 lessons • Level: Intermediate</div>
+              <div class="progress"><span class="fill" style="width:65%;"></span></div>
+              <div style="margin-top:8px;"><span style="font-size:13px; color:#3b6b8a;">Progress: 65%</span></div>
+            </div>
+            <div class="course-actions">
+              <a class="btn" href="#">Continue</a>
+              <a class="btn secondary" href="#">Details</a>
+            </div>
+          </article>
+
+          <!-- Course 4 -->
+          <article class="course-card">
+            <div class="course-thumb">
+              <img src="https://www.creativeitinstitute.com/images/course/course_1662637290.jpg" alt="UI Design course" />
+            </div>
+            <div class="course-body">
+              <h4>Intro to UI Design</h4>
+              <p>Design principles, color, and simple prototyping tips.</p>
+              <div class="course-meta">Duration: 4 lessons • Level: Beginner</div>
+              <div class="progress"><span class="fill" style="width:0%;"></span></div>
+              <div style="margin-top:8px;"><span style="font-size:13px; color:#3b6b8a;">Progress: 0%</span></div>
+            </div>
+            <div class="course-actions">
+              <a class="btn" href="#">Start</a>
+              <a class="btn secondary" href="#">Details</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- LESSONS TABLE -->
+      <section style="margin-top:14px;">
+        <h3 style="margin:0 0 8px 0; color:#0d3b66;">Lessons - JavaScript Basics</h3>
+        <table class="lesson-table">
+          <thead>
+            <tr><th>#</th><th>Lesson</th><th>Duration</th><th>Type</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Intro to JS & Setup</td><td>10m</td><td>Video</td></tr>
+            <tr><td>2</td><td>Variables & Data Types</td><td>18m</td><td>Article</td></tr>
+            <tr><td>3</td><td>Functions</td><td>22m</td><td>Video</td></tr>
+            <tr><td>4</td><td>DOM Basics</td><td>25m</td><td>Code Lab</td></tr>
+            <tr><td>5</td><td>Mini Project</td><td>40m</td><td>Project</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>© 2025 PikuLMS • Built for learning assignments</p>
+  </div>
+
+</body>
+</html>
